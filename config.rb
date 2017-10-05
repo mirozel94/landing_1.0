@@ -4,6 +4,10 @@ end
 
 activate :sprockets
 
+# Use “pretty” URLs (without the `.html` suffix)
+activate :directory_indexes
+
+
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
