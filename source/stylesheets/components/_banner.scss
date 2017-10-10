@@ -20,22 +20,3 @@
   opacity: 0.6;
   margin-bottom: 30px;
 }
-.banner-process {
-  text-align: center;
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: relative;
-  z-index: 5;
-}
-.banner-container {
-  position: relative;
-}
-.line-setter {
-  position: absolute;
-  border-top: 3px solid #8c8b8b;
-  top: 95px;
-  width: 100%;
-  z-index: 2;
-}

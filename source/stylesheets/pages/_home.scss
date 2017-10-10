@@ -1,3 +1,35 @@
 .container {
   padding: 0;
 }
+.banner-process {
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 5;
+  opacity: 1;
+}
+.banner-container {
+  position: relative;
+}
+.line-setter {
+  position: absolute;
+  border-top: 3px solid rgba(0,0,0,0.2);
+  top: 145px;
+  width: 95%;
+  z-index: 2;
+  margin-left: 32px;
+}
+.process-step {
+p {
+  font-size: 12px;
+  width: 200px;
+  }
+  height: 150px;
+}
+.feature-content {
+  height: 60vh;
+}
