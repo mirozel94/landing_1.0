@@ -9,7 +9,7 @@
   align-content: center;
   justify-content: space-around;
   position: relative;
-  z-index: 5;
+  z-index: 10;
   opacity: 1;
 }
 .banner-container {
@@ -20,7 +20,7 @@
   border-top: 3px solid rgba(0,0,0,0.2);
   top: 145px;
   width: 95%;
-  z-index: 2;
+  z-index: 1;
   margin-left: 32px;
 }
 .process-step {
@@ -32,4 +32,15 @@ p {
 }
 .feature-content {
   height: 60vh;
+  background-color: white;
+}
+.image-feature {
+  height: 300px;
+  witdth: 150px;
+}
+.second-feature {
+  background-color: #fafafa;
+}
+.bottom-small {
+  font-size: 12px;
 }
