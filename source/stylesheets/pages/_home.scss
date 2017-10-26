@@ -26,4 +26,30 @@ input {
   background-color: #D4503D;
   height: 300px;
   width: 300px;
+  position: relative;
+}
+.step-spacing {
+  margin-bottom: 50px !important;
+}
+.counter-circle {
+  height: 60px;
+  width: 60px;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 0%;
+}
+.counter-circle-left {
+  height: 60px;
+  width: 60px;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.number-center {
+  color: #fff;
+  font-weight: bolder;
 }
