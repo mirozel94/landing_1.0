@@ -1,9 +1,6 @@
 .bottom-small {
   font-size: 12px;
 }
-.process-steps {
-  height: 200vh;
-}
 body {
   background-color: #fff;
 }
@@ -23,4 +20,10 @@ input {
 .form-control {
   height: auto !important;
   font-size: 1em;
+}
+.step-circle {
+  border-radius: 50%;
+  background-color: #D4503D;
+  height: 300px;
+  width: 300px;
 }
