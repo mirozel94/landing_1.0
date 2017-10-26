@@ -7,3 +7,20 @@
 body {
   background-color: #fff;
 }
+input {
+  padding: 10px 20px !important;
+}
+.left-field-rounded {
+  border-radius: 10px 0 0 10px !important;
+  margin-right: -6px;
+}
+.right-field-rounded {
+  border-radius: 0 10px 10px 0 !important;
+  background-color: pink;
+  color: #fff;
+  font-weight: bolder;
+}
+.form-control {
+  height: auto !important;
+  font-size: 1em;
+}
