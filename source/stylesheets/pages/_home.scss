@@ -83,3 +83,6 @@ input {
   border-top-width: 10px;
   transform: rotate(-40deg);
 }
+.form-control:focus {
+  border-color: transparent !important;
+}
