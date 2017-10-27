@@ -24,12 +24,16 @@ input {
 .step-circle {
   border-radius: 50%;
   background-color: #D4503D;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   position: relative;
 }
 .step-spacing {
   margin-bottom: 50px !important;
+}
+.step-flex {
+  display: flex;
+  align-items: center;
 }
 .counter-circle {
   height: 60px;
@@ -52,4 +56,30 @@ input {
 .number-center {
   color: #fff;
   font-weight: bolder;
+}
+.steps-text {
+  color: #D4503D;
+}
+
+.arrow-dotted {
+  position: absolute;
+  bottom: -10%;
+  right: -70%;
+  width: 85%;
+  border: 1px dotted grey;
+  height: 50px;
+  border-color: grey transparent transparent transparent;
+  border-top-width: 10px;
+  transform: rotate(40deg);
+}
+.arrow-dotted-reverse {
+  position: absolute;
+  bottom: -10%;
+  left: -70%;
+  width: 85%;
+  border: 1px dotted grey;
+  height: 50px;
+  border-color: grey transparent transparent transparent;
+  border-top-width: 10px;
+  transform: rotate(-40deg);
 }

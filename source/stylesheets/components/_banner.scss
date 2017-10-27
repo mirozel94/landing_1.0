@@ -1,7 +1,7 @@
 .banner {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 120vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -15,7 +15,6 @@
   }
   h4 {
     font-weight: bolder;
-    margin-top: 50px;
   }
   p {
     font-size: 25px;
@@ -30,4 +29,28 @@
 }
 .banner-top {
   margin-bottom: 100px;
+}
+.banner-bottom {
+  position: relative;
+}
+.margin-extend {
+  margin-top: 100px;
+}
+.bottom-circle {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  border: 10px solid #fff;
+  position: absolute;
+  top: 40%;
+}
+.bottom-caption {
+  position: absolute;
+  top: 72%;
+}
+.final-caption {
+  position: absolute;
+  top: 85%;
+  color: pink;
+  font-weight: bolder;
 }
